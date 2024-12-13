@@ -17,7 +17,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setup(
     name="py3-images",
-    version="1.0.0",
+    version="1.0.1",
     description="The Python3 Images Library Developed By Guolei",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -34,6 +34,8 @@ setup(
         "jsonschema",
         "imgkit",
         "Pillow",
+        "setuptools",
+        "wheel",
     ],
     python_requires='>=3.0',
     zip_safe=False
